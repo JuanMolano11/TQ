@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+/*------------------------------------------------------*/
+.dropdown-submenu-contentSanN {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #333;
+    min-width: 200px;
+}
+
+.dropdown-submenu-contentSanN a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-submenu-contentSanN a:hover {
+    background-color: #555;
+}
+
+.dropdown-submenu:hover .dropdown-submenu-contentSanN {
+    display: block;
+}
+
+/*------------------------------------------------------*/
+.dropdown-submenu-contentSanN-PPAL {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #333;
+    min-width: 200px;
+}
+
+.dropdown-submenu-contentSanN-PPAL a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-submenu-contentSanN-PPAL a:hover {
+    background-color: #555;
+}
+
+.dropdown-submenu-contentSanN:hover .dropdown-submenu-contentSanN-PPAL {
+    display: block;
+}
+
+/*------------------------------------------------------*/
+.dropdown-submenu-contentSanN-PPAL-P {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #333;
+    min-width: 200px;
+}
+
+.dropdown-submenu-contentSanN-PPAL-P a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-submenu-contentSanN-PPAL-P a:hover {
+    background-color: #555;
+}
+
+.dropdown-submenu-contentSanN-PPAL:hover .dropdown-submenu-contentSanN-PPAL-P {
+    display: block;
+}
